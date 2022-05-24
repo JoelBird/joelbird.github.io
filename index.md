@@ -12,16 +12,16 @@ The tokens received can be exchanged for the projects products, exchanged for th
 ## OpenProj integration into discord server
 ## Initial Setup:
 
-1. Invite our OpenProj bot to your server with the following url pasted into your browser:
+1. Invite our OpenProj bot to your server with the following url pasted into your browser:\
 https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560
 2. Create a category called "OpenProj" within your discord server
 3. Create channels within the "OpenProj" category, each channel is a different area of development your project wishes to open to the public, inviting their support
 
 These channels that we call "Operations" can be of the following categories:\
-**Design**\
-**Marketing**\
-**Coding**\
-**Other Contributory tasks**
+Design\
+Marketing\
+Coding\
+Other Contributory tasks
 
 *The channel name should correspond with one of the categories mentioned above*
 
@@ -101,7 +101,7 @@ They will then archive the thread, awaiting evaluation.
 
 ## Server Duplication
 
-- For every discord server that has integrated with OpenProj it's operations and operation contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project. 
+- For every discord server that has integrated with OpenProj, it's operations and operation contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project. 
 
 
 ---
