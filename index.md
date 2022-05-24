@@ -17,23 +17,26 @@ https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=b
 2. Create a category called "OpenProj" within your discord server
 3. Create channels within the "OpenProj" category, each channel is a different area of development your project wishes to open to the public, inviting their support
 
-These channels that we call "Operations" can be of the following categories: 
-Design\
-Marketing\
-Coding\
-Other Contributory tasks
+These channels that we call "Operations" can be of the following categories:\
+**Design**\
+**Marketing**\
+**Coding**\
+**Other Contributory tasks**
 
 *The channel name should correspond with one of the categories mentioned above*
 
 ## Creating Operation Tasks:
 
-The first message in the channel will define all the tasks of this operation that you are inviting members to complete.
+- The first message in the channel will define all the tasks of this operation that you are inviting members to complete.\
+- You must create a distributor role within your server, call it: (name of server)Distributor, no spaces, first letter of each word capitalised:
+![9](/assets/9.PNG)
+- For a member to create and update tasks they must have the distributor role of that server.\
 4. Create tasks with the following format inserted as a message in your discord server:
 
 ```
 Create Tasks(insert tasks)
 ```
-![3](/assets/3.PNG))
+![7](/assets/7.PNG)
 
 *These commands must be used so that the "tasks" message is created by our bot, this is necessary as the bot will be updating the tasks message frequently and must be the author of the message to do so.*
 
@@ -42,11 +45,13 @@ Create Tasks(insert tasks)
 **Task Title:** Title of the task\
 **Token Allocation:** Will be rewarded to members on completion/contribution of the task\
 **Task Description:** Describe what the task entails\
-**Minimum-(operation)-tokens-earned-last-month:** Specify minimum tokens of this operation member must have acquired last month to contribute to the task.\
+**Minimum-(operation)-tokens-earned-last-month:** Specify minimum tokens of this operation member must have acquired last month to contribute to the task\
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
-**Thread Links:** The bot will create links to the threads members create
+**Thread Links:** The bot will create links to the threads that members create
 
-![1](/assets/1.PNG))
+![1](/assets/1.PNG)
+
+
 
 ---
 
@@ -60,9 +65,10 @@ Create Tasks(insert tasks)
 
 **Scaling** is a method of paying assisting members based on a percentage of how much they may earn for their contribution/completion. This will come from the servers distributor account. This is specifed in the thread title in brackets with a percentage preceding the amount. The amount is the percentage the thread creator is willing to allocate to contributing members, the rest reserved for the thread creator.
 
-These 2 methods can be applied by thread creator together or individually. The thread creator will define this amount and/percentage in the thread title:
+These 2 methods can be applied by thread creator together or individually.\
+The thread creator will define this amount and/percentage in the thread title:
 
-![5](/assets/5.PNG))
+![5](/assets/5.PNG)
 
 When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create a final message in the thread distributing tokens to all assisting members for their contribution:
 
@@ -70,7 +76,7 @@ When the thread creator has judged that the task is sufficiently completed/contr
 (Distribute: @member value/percentage)
 ```
 
-![6](/assets/6.PNG))
+![6](/assets/6.PNG)
 
 They will then archive the thread, awaiting evaluation. 
 
@@ -81,7 +87,7 @@ They will then archive the thread, awaiting evaluation.
 
 - At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every operation and distribute the allocated token amounts, they will distribute the tokens as a percentage of the threads contribution towards completing the task and according to the thread creators' scaling allocations:
 
-![2](/assets/2.PNG))
+![8](/assets/8.PNG))
 
 ---
 
@@ -104,8 +110,7 @@ They will then archive the thread, awaiting evaluation.
 - Our OpenProj bot will message you with command errors or information requested from a command
 
 
-**Creating server tasks (Must have distributor role):**
-
+**Create server tasks (Must have distributor role):**
 ```
 (Create Tasks: (insert tasks) )
 ```
