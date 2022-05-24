@@ -18,9 +18,9 @@ The tokens received can be exchanged for the projects products, exchanged for th
 
 These channels that we call "Operations" can be of the following categories: 
 
-Design
-Marketing
-Coding
+Design\n
+Marketing\n
+Coding\n
 Other Contributory tasks
 
 The channel name should correspond with one of the categories mentioned above.
