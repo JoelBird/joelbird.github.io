@@ -9,7 +9,7 @@ OpenProj helps projects on discord open their work to the community, allowing me
 
 The tokens received can be exchanged for the projects products, exchanged for their dollar value, or held in anticipation of future value growth.
 
-## OpenProj integration into discord server:
+## OpenProj integration into discord server
 ## Initial Setup:
 
 - Invite our OpenProj bot with ... permissions 
@@ -54,7 +54,7 @@ These commands must be used so that the "tasks" message is created by our bot, t
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task
 **Thread Links:** The bot will create links to the threads members create
 
-![[1.PNG]]
+![1](/assets/1.jpg))
 
 ---
 
