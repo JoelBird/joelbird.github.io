@@ -18,12 +18,12 @@ The tokens received can be exchanged for the projects products, exchanged for th
 
 These channels that we call "Operations" can be of the following categories: 
 
-Design\n
-Marketing\n
-Coding\n
+Design\
+Marketing\
+Coding\
 Other Contributory tasks
 
-The channel name should correspond with one of the categories mentioned above.
+The channel name should correspond with one of the categories mentioned above
 
 ## Creating Operation Tasks:
 
@@ -54,7 +54,7 @@ These commands must be used so that the "tasks" message is created by our bot, t
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task
 **Thread Links:** The bot will create links to the threads members create
 
-![1](/assets/1.jpg))
+![1](/assets/1.PNG))
 
 ---
 
