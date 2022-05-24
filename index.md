@@ -13,7 +13,7 @@ The tokens received can be exchanged for the projects products, exchanged for th
 ## Initial Setup:
 
 1. Invite our OpenProj bot to your server with the following url pasted into your browser:\
-{% include embed.html url="https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560" %}
+[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560)
 2. Create a category called "OpenProj" within your discord server
 3. Create channels within the "OpenProj" category, each channel is a different area of development your project wishes to open to the public, inviting their support
 
@@ -87,7 +87,7 @@ They will then archive the thread, awaiting evaluation.
 
 - At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every operation and distribute the allocated token amounts, they will distribute the tokens as a percentage of the threads contribution towards completing the task and according to the thread creators' scaling allocations:
 
-![8](/assets/8.PNG))
+![8](/assets/8.PNG)
 
 ---
 
