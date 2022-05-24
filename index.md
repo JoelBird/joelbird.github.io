@@ -12,7 +12,7 @@ The tokens received can be exchanged for the projects products, exchanged for th
 ## OpenProj integration into discord server
 ## Initial Setup:
 
-1. Invite our OpenProj bot to your server with the following url pasted into your browser:\
+1. Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560)
 2. Create a category called "OpenProj" within your discord server
 3. Create channels within the "OpenProj" category, each channel is a different area of development your project wishes to open to the public, inviting their support
