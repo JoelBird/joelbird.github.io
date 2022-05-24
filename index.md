@@ -10,7 +10,7 @@ OpenProj helps projects on discord open their work to the community, allowing me
 The tokens received can be exchanged for the projects products, exchanged for their dollar value, or held in anticipation of future value growth.
 
 ## OpenProj integration into discord server:
-### Initial Setup:
+## Initial Setup:
 
 - Invite our OpenProj bot with ... permissions 
 - Create a category called "OpenProj" 
@@ -25,7 +25,7 @@ Other Contributory tasks
 
 The channel name should correspond with one of the categories mentioned above.
 
-#### Creating Operation Tasks:
+## Creating Operation Tasks:
 
 The first message in the channel will define all the tasks of this operation which you will invite members to complete.
 
