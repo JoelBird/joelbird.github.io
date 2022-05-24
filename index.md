@@ -3,10 +3,14 @@ layout: default
 title: "Home"
 ---
 
+## What is OpenProj?
 
-#### OpenProj integration into discord server:
+OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with tokens belonging to that project.
 
-#### Initial Setup:
+The tokens received can be exchanged for the projects products, exchanged for their dollar value, or held in anticipation of future value growth.
+
+## OpenProj integration into discord server:
+### Initial Setup:
 
 - Invite our OpenProj bot with ... permissions 
 - Create a category called "OpenProj" 
