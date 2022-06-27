@@ -89,6 +89,8 @@ They will then archive the thread, awaiting evaluation.
 
 ![14](/assets/14.PNG)
 
+![8](/assets/8.PNG)
+
 ---
 
 ## Contributor Rating:
