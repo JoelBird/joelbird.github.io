@@ -87,7 +87,7 @@ They will then archive the thread, awaiting evaluation.
 
 - At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every operation and distribute the allocated token amounts, they will distribute the tokens as a percentage of the threads contribution towards completing the task and according to the thread creators' scaling allocations:
 
-![14](/assets/4.PNG)
+![14](/assets/14.PNG)
 
 ---
 
