@@ -26,7 +26,7 @@ other contributory tasks
 
 ## Creating Operation Tasks:
 
-- The first message in the channel will define all the tasks of this operation that you are inviting members to complete.\
+- The first message in the channel will define all the tasks of this operation that you are inviting members to complete.
 - You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, first letter of each word capitalised:
 ![9](/assets/9.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.\
