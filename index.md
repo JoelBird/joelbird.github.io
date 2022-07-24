@@ -12,6 +12,11 @@ The tokens received can be exchanged for the project's products, held in anticip
 ## OpenProj integration into discord server
 ## Initial Setup:
 
+Please ensure all earnings from your project go to a project wallet address that is seperate from all other income streams or holdings. The project earnings should be isolated in it's own address and not merged with any other value.
+
+If your project is an NFT project, we highly advise following our guide on setting up NFT royalties for your contract, this will ensure sustained project income and encourage long term project development and growth from your contributors:
+(LINKKKK))
+
 1. Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
 2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
@@ -84,9 +89,28 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
+## Generate Payees And Shares
+
+
+- After all threads have been evaluated and shares distributed, the owner should use the "Generate Payees And Shares" command. The bot will send 2 arrays, the first array contains the share amounts and the second array contains the ethereum addresses' for those amounts.
+
+- These lists are inserted into the "_addPayees" function of the payment splitter smart contract:
+
+(IMAGEE)
+
+- You can request for me to create this contract for you at OpenProje@gmail.com or find the guide on how to create this smart contract here:
+(LINK)))
+
+- Send the funds from the project wallet to the created smart contract's address
+- Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
+(IMAGEEEE))))
+
+
+---
+
 ## Set Owner Shares Percent
 
-- The server owner should set the percentage of shares the project owner will have using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command
+- The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command
 
 Set this amount with the following command:
 
@@ -95,11 +119,30 @@ Set this amount with the following command:
 (Set Owner Shares Percent: percentage)
 ```
 
-## 
-
 ## Setting Owner Ethereum address
 
 - The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account
+
+Set this amount with the following command:
+
+**Set Owner Ethereum Address (Sent in chat/commands channel) (Must be server owner)**
+```
+(Set Owner Ethereum Address: ethereum address)
+```
+
+## Openproj will always have 5% of shares
+
+- Openproj will always possess 5% of shares, according to the same logic as the "Set Owner Shares percent" command
+
+## Set Ethereum address
+
+- Members must add their ethereum wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address
+- 
+**Set my Ethereum Address (Sent in chat/commands channel)**
+```
+(Set Ethereum Address: ethereum address)
+```
+
 
 ## Server Duplication
 
