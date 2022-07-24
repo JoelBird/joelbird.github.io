@@ -14,15 +14,18 @@ The tokens received can be exchanged for the project's products, held in anticip
 
 1. Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560)
-2. Create a category called "OpenProj" within your discord server
-3. Create channels within the "OpenProj" category, each channel is a different area of development your project wishes to open to the public, inviting their support
+2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
+3. Create the following channels in the OpenProj category:\
+info
+chat
+commands
 
-These channels that we call "Operations" can be of the following categories:\
-marketing\
-coding\
-other contributory tasks
+Now create the tasks channels. Task channels are different areas of development your project wishes to open to the public, inviting their support. Task channels can be of the following categories:\
+marketing-tasks\
+coding-tasks\
+other-tasks
 
-*The channel name should correspond with one of the categories mentioned above*
+*When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
 ## Creating Operation Tasks:
 
@@ -42,9 +45,8 @@ Create Tasks(insert tasks)
 **Task Information:**
 
 **Task Title:** Title of the task\
-**Token Allocation:** Will be rewarded to members on completion/contribution of the task\
+**Task Level:** A number from 1 - 100 that describes the difficulty of the task and is also the amount shares a contributor will receive on completion of the task\
 **Task Description:** Describe what the task entails\
-**MTELM:** Specify minimum tokens of this operation member must have acquired last month to contribute to the task\
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
 **Thread Links:** The bot will create links to the threads that members create
 
@@ -56,25 +58,14 @@ Create Tasks(insert tasks)
 
 - Members can create a thread to attempt completion/contribution of a task
 - The creator of this thread is held responsible for the task
-- The thread creator may require other members to assist in contribution/completion of the task. The thread creator can compensate the assisting members through method of **compensation** and **scaling**:
-
-**Compensation** is a defined amount of tokens the thread creator will send the assisting members before ending/archiving the thread. This will come from the thread creator. It is a method of ensuring compensation of assisting members regardless of how many tokens is received on evaluation. This is specifed as the first item in the thread title in brackets.
-
-**Scaling** is a method of paying assisting members based on a percentage of how much they may earn for their contribution/completion. This will come from the servers distributor account. This is specifed in the thread title in brackets with a percentage following the amount. The amount is the percentage the thread creator is willing to allocate to contributing members, the rest reserved for the thread creator.
-
-These 2 methods can be applied by thread creator together or individually.\
-The thread creator will define this amount and/percentage in the thread title:
+- The thread creator may require other members to assist in contribution/completion of the task. The thread creator uses the Split command to allocate a percentage of received shares to contributors in that thread.
 
 ![12](/assets/12.PNG)
 
-When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, compensating tokens and assigning scaling percentages to all assisting members for their contribution:
+When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, allocating the shares to all assisting members for their contribution:
 
 ```
-(Compensate: @member amount)
-```
-
-```
-(Scale: @member percentage)
+(Split: @member amount)
 ```
 
 ![13](/assets/13.PNG)
@@ -85,7 +76,7 @@ They will then archive the thread, awaiting evaluation.
 
 ## Evaluating a task contribution/completion:
 
-- At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every operation and distribute the allocated token amounts, they will distribute the tokens as a percentage of the threads contribution towards completing the task and according to the thread creators' scaling allocations:
+- At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every task channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' split allocations:
 
 ![14](/assets/14.PNG)
 
@@ -93,58 +84,54 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
-## Contributor Rating:
-
-- Tokens earned by task completers/contributors within an operation will contribute to their (operation)-tokens-earned. A contributor can be evaluated on their quality of contribution within an operation based on their (operation)-tokens-earned-last-month. 
-
-- Members looking to assist thread creators will decide which thread creator to support based on scaling according to high (operation)-tokens-received-last-month, or compensatory, to ensure compensation regardless of ablity of thread creator to contribute to operation goals. 
-
----
-
 ## Server Duplication
 
-- For every discord server that has integrated with OpenProj, it's operations and operation contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project. 
+- For every discord server that has integrated with OpenProj, it's task channels and task channels contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project
 
 ---
 
 ## OpenProj-Discord Commands
+
 - These commands are sent as a message in a Discord server that has invited our OpenProj bot
 - Our OpenProj bot will message you with command errors or information requested from a command
 
 
-**Create server tasks (Sent in operation channel) (Must have distributor role):**
+**Create server tasks (Sent in task channel) (Must have distributor role):**
 ```
 (Create Tasks: (insert tasks) )
 ```
 
-**Update server tasks (Sent in operation channel) (Must have distributor role)**
+**Update server tasks (Sent in task channel) (Must have distributor role)**
 ```
 (Update Tasks: (insert tasks) )
 ```
 *This command will delete the tasks already there and replace them with the new task information*
 
-**Compensate assisting members (Sent in thread)**
+**Set Split for assisting members (Sent in thread)**
 ```
-(Compensate: @member amount)
+(Split: @member percentage)
 ```
-**Set Scaling for assisting members (Sent in thread)**
-```
-(Scale: @member percentage)
-```
-**Distribute token allocation to task completers/contributors (Sent in thread) (Must have distributor role)**
+**Distribute shares to task completers/contributors (Sent in thread) (Must have distributor role)**
 ```
 (Distribute: @member amount)
 ```
-**Check account balance (Sent in openproj-chat channel)**
+**Set Owner Shares Percent (Sent in chat/commands channel) (Must be server owner)**
 ```
-(Balance: currency name)
+(Set Owner Shares Percent: percentage)
 ```
-**Send tokens to another member (Sent in openproj-chat channel)**
+**Set Owner Ethereum Address (Sent in chat/commands channel) (Must be server owner)**
 ```
-(Send: @member value)
+(Set Owner Ethereum Address: ethereum address)
 ```
-**Check Tokens-Earned-Last-Month (Sent in openproj-chat channel)**
+**Set my Ethereum Address (Sent in chat/commands channel)**
 ```
-(TELM: operation name)
+(Set Ethereum Address: ethereum address)
 ```
-
+**Check shares (Sent in chat/commands channel)**
+```
+(Shares: server name)
+```
+**Generate Payees And Shares (Sent in chat/commands channel)**
+```
+(Generate Payees And Shares: server name)
+```
