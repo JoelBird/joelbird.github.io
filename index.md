@@ -30,7 +30,7 @@ other-tasks
 ## Creating Operation Tasks:
 
 - The first message in the channel will define all the tasks of this operation that you are inviting members to complete.
-- You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, first letter of each word capitalised:
+- You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, server name spelt as spelt on server, distributor with capital "D"
 ![9](/assets/9.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.\
 4. Create tasks with the following format inserted as a message in your discord server:
@@ -84,9 +84,22 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
-## Setting Ethereum addresses
+## Set Owner Shares Percent
 
-- The server owner must use the "Set Owner Ethereum address" command and all contributing members should set the 
+- The server owner should set the percentage of shares the project owner will have using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command
+
+Set this amount with the following command:
+
+**Set Owner Shares Percent (Sent in chat/commands channel) (Must be server owner)**
+```
+(Set Owner Shares Percent: percentage)
+```
+
+## 
+
+## Setting Owner Ethereum address
+
+- The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account
 
 ## Server Duplication
 
