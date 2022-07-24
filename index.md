@@ -13,7 +13,7 @@ The tokens received can be exchanged for the project's products, held in anticip
 ## Initial Setup:
 
 1. Invite our OpenProj bot to your server:
-[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=66560)
+[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
 2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
 3. Create the following channels in the OpenProj category:\
 info
@@ -83,6 +83,10 @@ They will then archive the thread, awaiting evaluation.
 ![8](/assets/8.PNG)
 
 ---
+
+## Setting Ethereum addresses
+
+- The server owner must use the "Set Owner Ethereum address" command and all contributing members should set the 
 
 ## Server Duplication
 
