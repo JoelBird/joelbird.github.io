@@ -18,15 +18,15 @@ If your project is an NFT project, we highly advise following our guide on setti
 1. Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
 2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
-3. Create the following channels in the OpenProj category:\\
-info
-chat
-commands
+3. Create the following channels in the OpenProj category:\
+\info\
+chat\
+commands\
 
-Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:
-marketing-tasks
-coding-tasks
-other-tasks
+Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:\
+\marketing-tasks\
+coding-tasks\
+other-tasks\
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
