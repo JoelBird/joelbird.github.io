@@ -7,23 +7,41 @@ https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/fin
 
 ![1](/assets/images/1.PNG)
 
-- Copy constructor and paste at bottom of contract
-- replace "constructor" with "function _addPayees"
-- replace "payable with "public onlyOwner"
+- Create "addPayees" function at bottom of file:
+
+```
+function _addPayees(address[] memory payees, uint256[] memory shares_) public onlyOwner  {
+            require(payees.length == shares_.length, "PaymentSplitter: payees and shares length mismatch");
+            require(payees.length > 0, "PaymentSplitter: no payees");
+
+            for (uint256 i = 0; i < payees.length; i++) {
+                _addPayee(payees[i], shares_[i]);
+            }
+        }
+```
 
 ![2](/assets/images/2.PNG)
 
-- Go back to the constructor we copied near the top of the file and make it as the following image:
+- Replace constructor near top of file with following code:
+
+    ```
+    constructor() payable {
+ 
+    }
+    ```
 
 ![3](/assets/images/3.PNG)
 
 - Add event "payeesCleared"
 
+```
+event PayeesCleared();
+```
+
 ![4](/assets/images/4.PNG)
 
 - Add "clearPayees" function to bottom of file:
 
-![5](/assets/images/5.PNG)
 ```
  function _clearPayees() public onlyOwner {
         for (uint256 i = 0; i < _payees.length; i++) {
@@ -35,3 +53,4 @@ https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/fin
         emit PayeesCleared();
     }
 ```
+![5](/assets/images/5.PNG)
