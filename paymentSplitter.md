@@ -4,7 +4,7 @@
 - Copy and paste OpenZepplin's payment splitter contract code from the following link into your paymentSplitter file:
 [OpenZepplin's Payment Splitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol)
 
-![1](/assets/images/1.PNG)
+![1](/assets/paymentSplitterImages/1.PNG)
 
 - Replace import statements at top of file with the following:
 
@@ -21,7 +21,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 contract PaymentSplitter is Context, Ownable {
 ```
 
-![6](/assets/images/6.PNG)
+![6](/assets/paymentSplitterImages/6.PNG)
 
 
 
@@ -38,7 +38,7 @@ function _addPayees(address[] memory payees, uint256[] memory shares_) public on
         }
 ```
 
-![2](/assets/images/2.PNG)
+![2](/assets/paymentSplitterImages/2.PNG)
 
 - Replace constructor near top of file with following code:
 
@@ -48,7 +48,7 @@ function _addPayees(address[] memory payees, uint256[] memory shares_) public on
     }
     ```
 
-![3](/assets/images/3.PNG)
+![3](/assets/paymentSplitterImages/3.PNG)
 
 - Add event "payeesCleared" near top of file
 
@@ -56,7 +56,7 @@ function _addPayees(address[] memory payees, uint256[] memory shares_) public on
 event PayeesCleared();
 ```
 
-![4](/assets/images/4.PNG)
+![4](/assets/paymentSplitterImages/4.PNG)
 
 - Add "clearPayees" function to bottom of file:
 
@@ -71,4 +71,4 @@ event PayeesCleared();
         emit PayeesCleared();
     }
 ```
-![5](/assets/images/5.PNG)
+![5](/assets/paymentSplitterImages/5.PNG)
