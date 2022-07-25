@@ -86,7 +86,7 @@ They will then archive the thread, awaiting evaluation.
 
 ![9](/assets/images/9.PNG)
 
-![draw.io split command](/assets/images/draw.io split command.PNG)
+![split](/assets/images/split.PNG)
 
 ---
 
