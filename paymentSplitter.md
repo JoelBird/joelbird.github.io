@@ -15,7 +15,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 ```
 
-- Replace the circled line with the following:
+- Replace the underlined with the following:
 
 ```
 contract PaymentSplitter is Context, Ownable {
@@ -40,7 +40,7 @@ function _addPayees(address[] memory payees, uint256[] memory shares_) public on
 
 ![2](/assets/paymentSplitterImages/2.PNG)
 
-- Replace constructor near top of file with following code:
+- Replace constructor near top of file with following:
 
     ```
     constructor() payable {
