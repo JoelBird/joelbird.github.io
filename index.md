@@ -23,9 +23,9 @@ info
 chat
 commands
 
-Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:\\
-marketing-tasks\
-coding-tasks\
+Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:
+marketing-tasks
+coding-tasks
 other-tasks
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
