@@ -57,8 +57,6 @@ Create Tasks(**tasks**)
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
 **Thread Links:** The bot will create links to the threads that members create
 
-![3](/assets/images/3.PNG)
-
 ---
 
 ## How a member completes/contributes to a task:
@@ -88,7 +86,7 @@ They will then archive the thread, awaiting evaluation.
 
 ![9](/assets/images/9.PNG)
 
-![draw.io split command](/assets/draw.io split command.PNG)
+![draw.io split command](/assets/images/draw.io split command.PNG)
 
 ---
 
