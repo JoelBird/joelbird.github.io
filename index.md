@@ -43,7 +43,7 @@ other-tasks
 - Create tasks with the following format inserted as a message in your discord server:
 
 ```
-Create Tasks(insert tasks)
+Create Tasks(**tasks**)
 ```
 ![10](/assets/10.PNG)
 
@@ -72,7 +72,7 @@ Create Tasks(insert tasks)
 When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, allocating the shares to all assisting members for their contribution:
 
 ```
-(Split: @member amount)
+(Split: @member **amount**)
 ```
 
 ![13](/assets/13.PNG)
@@ -117,26 +117,32 @@ They will then archive the thread, awaiting evaluation.
 - The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command:
 
 ```
-(Set Owner Shares Percent: percentage)
+(Set Owner Shares Percent: **percentage**)
 ```
+
+---
 
 ## Setting Owner Ethereum address
 
 - The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
 
 ```
-(Set Owner Ethereum Address: ethereum address)
+(Set Owner Ethereum Address: **ethereum address**)
 ```
+
+---
 
 ## Openproj will always have 5% of shares
 
 - Openproj will always possess 5% of shares, according to the same logic as the "Set Owner Shares percent" command
 
+---
+
 ## Set Ethereum address
 
 - Members must add their ethereum wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address:
 ```
-(Set Ethereum Address: ethereum address)
+(Set Ethereum Address: **ethereum address**)
 ```
 
 ---
