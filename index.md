@@ -39,7 +39,7 @@ other-tasks
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
 - You must create a distributor role within your server, call it: (name of server)Distributor - no spaces, server name spelt as spelt on server, distributor with capitalised "D"\
 ![9](/assets/9.PNG)
-- For a member to create and update tasks they must have the distributor role of that server.\
+- For a member to create and update tasks they must have the distributor role of that server.
 - Create tasks with the following format inserted as a message in your discord server:
 
 ```
@@ -152,7 +152,7 @@ They will then archive the thread, awaiting evaluation.
 - For every discord server that has integrated with OpenProj, it's task channels and task channel's contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project
 
 OpenProj Server:
-https://discord.gg/8D4seJb4
+[Invite Url](https://discord.gg/8D4seJb4)
 
 ---
 
