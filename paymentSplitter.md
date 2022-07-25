@@ -21,7 +21,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 contract PaymentSplitter is Context, Ownable {
 ```
 
-![6](/assets/paymentSplitterImages/6.PNG)
+![5](/assets/paymentSplitterImages/5.PNG)
 
 
 
