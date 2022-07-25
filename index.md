@@ -21,14 +21,14 @@ If your project is an NFT project, we highly advise following our guide on setti
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
 - Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
 - Create the following channels in the OpenProj category:\
-\info\
+info\
 chat\
-commands\
+commands
 
-Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:\
-\marketing-tasks\
+Now create the task-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Task-channels can be of the following categories:\
+marketing-tasks\
 coding-tasks\
-other-tasks\
+other-tasks
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
@@ -84,6 +84,10 @@ They will then archive the thread, awaiting evaluation.
 ## Evaluating a task contribution/completion:
 
 - At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every task channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
+
+```
+(Distribute: @member **amount**)
+```
 
 ![14](/assets/14.PNG)
 
@@ -154,7 +158,7 @@ https://discord.gg/8D4seJb4
 
 **Create server tasks (Sent in task channel) (Must have distributor role):**
 ```
-(Create Tasks: tasks)
+(Create Tasks: **tasks**)
 ```
 
 **Update server tasks (Sent in task channel) (Must have distributor role)**
@@ -165,29 +169,29 @@ https://discord.gg/8D4seJb4
 
 **Set Split for assisting members (Sent in thread)**
 ```
-(Split: @member percentage)
+(Split: @member **percentage**)
 ```
 **Distribute shares to task completers/contributors (Sent in thread) (Must have distributor role)**
 ```
-(Distribute: @member amount)
+(Distribute: @member **amount**)
 ```
 **Set Owner Shares Percent (Sent in chat/commands channel) (Must be server owner)**
 ```
-(Set Owner Shares Percent: percentage)
+(Set Owner Shares Percent: **percentage**)
 ```
 **Set Owner Ethereum Address (Sent in chat/commands channel) (Must be server owner)**
 ```
-(Set Owner Ethereum Address: ethereum address)
+(Set Owner Ethereum Address: **ethereum address**)
 ```
 **Set my Ethereum Address (Sent in chat/commands channel)**
 ```
-(Set Ethereum Address: ethereum address)
+(Set Ethereum Address: **ethereum address**)
 ```
 **Check shares (Sent in chat/commands channel)**
 ```
-(Shares: server name)
+(Shares: **server name**)
 ```
 **Generate Payees And Shares (Sent in chat/commands channel)**
 ```
-(Generate Payees And Shares: server name)
+(Generate Payees And Shares: **server name**)
 ```
