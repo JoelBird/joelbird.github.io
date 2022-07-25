@@ -1,6 +1,6 @@
-title: "OpenProj."
+title: "OpenProj"
 author: "Joel Bird"
-description: "Open your project to the community, reward contributions with tokens"
+description: "Open your project to the community, reward contributions with shares"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
