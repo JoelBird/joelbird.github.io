@@ -5,9 +5,7 @@ title: "Home"
 
 ## What is OpenProj?
 
-OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with tokens belonging to that project.
-
-The tokens received can be exchanged for the project's products, held in anticipation of future value growth, and in the future, exchanged for their dollar value.
+OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with shares of that project.
 
 ## OpenProj integration into discord server
 ## Initial Setup:
@@ -20,22 +18,22 @@ If your project is an NFT project, we highly advise following our guide on setti
 1. Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
 2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
-3. Create the following channels in the OpenProj category:\
+3. Create the following channels in the OpenProj category:\\
 info
 chat
 commands
 
-Now create the tasks channels. Task channels are different areas of development your project wishes to open to the public, inviting their support. Task channels can be of the following categories:\
+Now create the tasks-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Tasks-channels can be of the following categories:\\
 marketing-tasks\
 coding-tasks\
 other-tasks
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
-## Creating Operation Tasks:
+## Creating Tasks:
 
-- The first message in the channel will define all the tasks of this operation that you are inviting members to complete.
-- You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, server name spelt as spelt on server, distributor with capital "D"
+- The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
+- You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, server name spelt as spelt on server, distributor with capitalised "D"
 ![9](/assets/9.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.\
 4. Create tasks with the following format inserted as a message in your discord server:
@@ -81,7 +79,7 @@ They will then archive the thread, awaiting evaluation.
 
 ## Evaluating a task contribution/completion:
 
-- At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every task channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' split allocations:
+- At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every task channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
 
 ![14](/assets/14.PNG)
 
@@ -90,7 +88,6 @@ They will then archive the thread, awaiting evaluation.
 ---
 
 ## Generate Payees And Shares
-
 
 - After all threads have been evaluated and shares distributed, the owner should use the "Generate Payees And Shares" command. The bot will send 2 arrays, the first array contains the share amounts and the second array contains the ethereum addresses' for those amounts.
 
@@ -113,8 +110,6 @@ They will then archive the thread, awaiting evaluation.
 - The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command
 
 Set this amount with the following command:
-
-**Set Owner Shares Percent (Sent in chat/commands channel) (Must be server owner)**
 ```
 (Set Owner Shares Percent: percentage)
 ```
@@ -124,8 +119,6 @@ Set this amount with the following command:
 - The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account
 
 Set this amount with the following command:
-
-**Set Owner Ethereum Address (Sent in chat/commands channel) (Must be server owner)**
 ```
 (Set Owner Ethereum Address: ethereum address)
 ```
@@ -136,17 +129,19 @@ Set this amount with the following command:
 
 ## Set Ethereum address
 
-- Members must add their ethereum wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address
-- 
-**Set my Ethereum Address (Sent in chat/commands channel)**
+- Members must add their ethereum wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address:
 ```
 (Set Ethereum Address: ethereum address)
 ```
 
+---
 
 ## Server Duplication
 
-- For every discord server that has integrated with OpenProj, it's task channels and task channels contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project
+- For every discord server that has integrated with OpenProj, it's task channels and task channel's contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project
+
+OpenProj Server:
+https://discord.gg/8D4seJb4
 
 ---
 
