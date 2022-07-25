@@ -1,11 +1,29 @@
-## Creating Payment Splitter Smart Contract
 
-- Go to Remix.Ethereum.org
+- Go to [Remix IDE](Remix.Ethereum.org)
 - Create new file in contracts folder called "paymentSplitter"
 - Copy and paste OpenZepplin's payment splitter contract code from the following link into your paymentSplitter file:
-https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol
+[OpenZepplin's Payment Splitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol)
 
 ![1](/assets/images/1.PNG)
+
+- Replace import statements at top of file with the following:
+
+```
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+```
+
+- Replace the circled line with the following:
+
+```
+contract PaymentSplitter is Context, Ownable {
+```
+
+![6](/assets/images/6.PNG)
+
+
 
 - Create "addPayees" function at bottom of file:
 
@@ -32,7 +50,7 @@ function _addPayees(address[] memory payees, uint256[] memory shares_) public on
 
 ![3](/assets/images/3.PNG)
 
-- Add event "payeesCleared"
+- Add event "payeesCleared" near top of file
 
 ```
 event PayeesCleared();
