@@ -38,14 +38,14 @@ other-tasks
 
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
 - You must create a distributor role within your server, call it: (name of server)Distributor - no spaces, server name spelt as spelt on server, distributor with capitalised "D"\
-![9](/assets/9.PNG)
+![1](/assets/1.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.
 - Create tasks with the following format inserted as a message in your discord server:
 
 ```
 Create Tasks(**tasks**)
 ```
-![10](/assets/10.PNG)
+![2](/assets/2.PNG)
 
 *These commands must be used so that the "tasks" message is created by our bot, this is necessary as the bot will be updating the tasks message frequently and must be the author of the message to do so.*
 
@@ -57,7 +57,7 @@ Create Tasks(**tasks**)
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
 **Thread Links:** The bot will create links to the threads that members create
 
-![11](/assets/11.PNG)
+![3](/assets/3.PNG)
 
 ---
 
@@ -66,16 +66,13 @@ Create Tasks(**tasks**)
 - Members can create a thread to attempt completion/contribution of a task
 - The creator of this thread is held responsible for the task
 - The thread creator may require other members to assist in contribution/completion of the task. The thread creator uses the Split command to allocate a percentage of received shares to contributors in that thread.
-
-![12](/assets/12.PNG)
-
-When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, allocating the shares to all assisting members for their contribution:
+- When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, allocating the shares to all assisting members for their contribution:
 
 ```
 (Split: @member **amount**)
 ```
 
-![13](/assets/13.PNG)
+![8](/assets/8.PNG)
 
 They will then archive the thread, awaiting evaluation. 
 
@@ -89,9 +86,9 @@ They will then archive the thread, awaiting evaluation.
 (Distribute: @member **amount**)
 ```
 
-![14](/assets/14.PNG)
+![9](/assets/9.PNG)
 
-![8](/assets/8.PNG)
+![draw.io split command](/assets/draw.io split command.PNG)
 
 ---
 
@@ -101,14 +98,15 @@ They will then archive the thread, awaiting evaluation.
 
 - These lists are inserted into the "_addPayees" function of the payment splitter smart contract:
 
-(IMAGEE)
+![4](/assets/4.PNG)
 
 - You can request for me to create this contract for you at OpenProje@gmail.com or find the guide on how to create this smart contract here:
 (LINK)))
 
 - Send the funds from the project wallet to the created smart contract's address
 - Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
-(IMAGEEEE))))
+
+![5](/assets/5.PNG)
 
 ---
 
