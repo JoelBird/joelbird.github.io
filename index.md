@@ -38,14 +38,14 @@ other-tasks
 
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
 - You must create a distributor role within your server, call it: (name of server)Distributor - no spaces, server name spelt as spelt on server, distributor with capitalised "D"\
-![1](/assets/1.PNG)
+![1](/assets/images/1.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.
 - Create tasks with the following format inserted as a message in your discord server:
 
 ```
 Create Tasks(**tasks**)
 ```
-![2](/assets/2.PNG)
+![2](/assets/images/2.PNG)
 
 *These commands must be used so that the "tasks" message is created by our bot, this is necessary as the bot will be updating the tasks message frequently and must be the author of the message to do so.*
 
@@ -57,7 +57,7 @@ Create Tasks(**tasks**)
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
 **Thread Links:** The bot will create links to the threads that members create
 
-![3](/assets/3.PNG)
+![3](/assets/images/3.PNG)
 
 ---
 
@@ -72,7 +72,7 @@ Create Tasks(**tasks**)
 (Split: @member **amount**)
 ```
 
-![8](/assets/8.PNG)
+![8](/assets/images/8.PNG)
 
 They will then archive the thread, awaiting evaluation. 
 
@@ -86,7 +86,7 @@ They will then archive the thread, awaiting evaluation.
 (Distribute: @member **amount**)
 ```
 
-![9](/assets/9.PNG)
+![9](/assets/images/9.PNG)
 
 ![draw.io split command](/assets/draw.io split command.PNG)
 
@@ -98,7 +98,7 @@ They will then archive the thread, awaiting evaluation.
 
 - These lists are inserted into the "_addPayees" function of the payment splitter smart contract:
 
-![4](/assets/4.PNG)
+![4](/assets/images/4.PNG)
 
 - You can request for me to create this contract for you at OpenProje@gmail.com or find the guide on how to create this smart contract here:
 (LINK)))
@@ -106,7 +106,7 @@ They will then archive the thread, awaiting evaluation.
 - Send the funds from the project wallet to the created smart contract's address
 - Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
 
-![5](/assets/5.PNG)
+![5](/assets/images/5.PNG)
 
 ---
 
