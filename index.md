@@ -7,6 +7,8 @@ title: "Home"
 
 OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with shares of that project.
 
+---
+
 ## OpenProj integration into discord server
 ## Initial Setup:
 
@@ -15,10 +17,10 @@ Please ensure all earnings from your project go to a project wallet address that
 If your project is an NFT project, we highly advise following our guide on setting up NFT royalties for your contract, this will ensure sustained project income and encourage long term project development and growth from your contributors:
 (LINKKKK))
 
-1. Invite our OpenProj bot to your server:
+- Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
-2. Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
-3. Create the following channels in the OpenProj category:\
+- Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
+- Create the following channels in the OpenProj category:\
 \info\
 chat\
 commands\
@@ -30,13 +32,15 @@ other-tasks\
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
+---
+
 ## Creating Tasks:
 
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
-- You must create a distributor role within your server, call it: (name of server)Distributor | no spaces, server name spelt as spelt on server, distributor with capitalised "D"
+- You must create a distributor role within your server, call it: (name of server)Distributor - no spaces, server name spelt as spelt on server, distributor with capitalised "D"\
 ![9](/assets/9.PNG)
 - For a member to create and update tasks they must have the distributor role of that server.\
-4. Create tasks with the following format inserted as a message in your discord server:
+- Create tasks with the following format inserted as a message in your discord server:
 
 ```
 Create Tasks(insert tasks)
@@ -102,23 +106,20 @@ They will then archive the thread, awaiting evaluation.
 - Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
 (IMAGEEEE))))
 
-
 ---
 
 ## Set Owner Shares Percent
 
-- The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command
+- The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command:
 
-Set this amount with the following command:
 ```
 (Set Owner Shares Percent: percentage)
 ```
 
 ## Setting Owner Ethereum address
 
-- The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account
+- The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
 
-Set this amount with the following command:
 ```
 (Set Owner Ethereum Address: ethereum address)
 ```
@@ -153,12 +154,12 @@ https://discord.gg/8D4seJb4
 
 **Create server tasks (Sent in task channel) (Must have distributor role):**
 ```
-(Create Tasks: (insert tasks) )
+(Create Tasks: tasks)
 ```
 
 **Update server tasks (Sent in task channel) (Must have distributor role)**
 ```
-(Update Tasks: (insert tasks) )
+(Update Tasks: **tasks**)
 ```
 *This command will delete the tasks already there and replace them with the new task information*
 
