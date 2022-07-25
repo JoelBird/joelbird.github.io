@@ -162,7 +162,7 @@ https://discord.gg/8D4seJb4
 - Our OpenProj bot will message you with command errors or information requested from a command
 
 
-**Create server tasks (Sent in task channel) (Must have distributor role):**
+**Create server tasks (Sent in task channel) (Must have distributor role)**
 ```
 (Create Tasks: **tasks**)
 ```
