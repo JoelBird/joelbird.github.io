@@ -1,3 +1,11 @@
+- This guide is to make transparent the changes made to the contract developed by OpenZepplin
+
+- Changes are required to allow project owner to add and clear payees at any point and to reserve access of certain functions for contract creator(Project Owner)
+
+- A metamask account is required with 0.01 MATIC(0.008315 US Dollar) in the account to deploy the smart contract to the MATIC Mainnet
+
+- This contract should be deployed with MATIC/Polygon because Ethereum is too expensive(117 US Dollar)
+
 
 - Go to [Remix IDE](Remix.Ethereum.org)
 - Create new file in contracts folder called "paymentSplitter"
@@ -14,6 +22,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 ```
+
+![6](/assets/paymentSplitterImages/6.PNG)
 
 - Replace the underlined with the following:
 
@@ -71,4 +81,52 @@ event PayeesCleared();
         emit PayeesCleared();
     }
 ```
-![5](/assets/paymentSplitterImages/5.PNG)
+
+- Go to plugin manager tab, search and activate flattener plugin:
+
+![13](/assets/paymentSplitterImages/13.PNG)
+
+- In the flattener plugin tab, flatten paymentSplitter and save paymentSplitter_flat
+
+![7](/assets/paymentSplitterImages/7.PNG)
+
+- Add following text to top of paymentSplitter_flat if missing
+
+```
+// SPDX-License-Identifier: MIT
+```
+
+![7](/assets/paymentSplitterImages/7.PNG)
+
+- Ensure your compiler and contract is set to the following and click "Compile and run script":
+
+![15](/assets/paymentSplitterImages/15.PNG)
+
+- Ensure your Metamask wallet network is set to Matic Mainnet:
+
+![16](/assets/paymentSplitterImages/16.PNG)
+
+- On "Deploy and run transactions" tab, set environment to "injected provider", ensure contract is "paymentSplitter_flat" and click "deploy"
+
+![17](/assets/paymentSplitterImages/17.PNG)
+
+- confirm the message box that appears, Metamask will pop up asking you to confirm transaction, click "confirm"
+
+![18](/assets/paymentSplitterImages/18.PNG)
+
+- In metamask, open the contract deployment transaction, and click "View on block explorer":
+
+![19](/assets/paymentSplitterImages/19.PNG)
+![20](/assets/paymentSplitterImages/20.PNG)
+
+- Click the contract address link:
+
+![21](/assets/paymentSplitterImages/21.PNG)
+
+- CLick "Verify and Publish" on "contract" tab:
+
+![22](/assets/paymentSplitterImages/22.PNG)
+
+- Make the fields in circle the same:
+
+![23](/assets/paymentSplitterImages/23.PNG)
