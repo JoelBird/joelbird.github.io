@@ -1,3 +1,5 @@
+#### Notes:
+
 - This guide is to make transparent the changes made to the contract developed by OpenZepplin
 
 - Changes are required to allow project owner to add and clear payees at any point and to reserve access of certain functions for contract creator(Project Owner)
@@ -6,8 +8,11 @@
 
 - This contract should be deployed with MATIC/Polygon because Ethereum is too expensive(117 US Dollar)
 
+---
 
-- Go to [Remix IDE](Remix.Ethereum.org)
+#### Steps:
+
+- Go to [Remix IDE]([Remix.Ethereum.org](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js))
 - Create new file in contracts folder called "paymentSplitter"
 - Copy and paste OpenZepplin's payment splitter contract code from the following link into your paymentSplitter file:
 [OpenZepplin's Payment Splitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol)
@@ -146,7 +151,7 @@ event PayeesCleared();
 - Insert the following command into the commands channel of your discord server to generate the payees and sharares arrays for your server:
 
 ```
-(Generate Payees And Shares: **Your Server Name)
+(Generate Payees And Shares: **Your Server Name**)
 ```
 
 ![27](/assets/paymentSplitterImages/27.PNG)
