@@ -1,4 +1,4 @@
-## Steps:
+## Notes:
 
 - This guide is to make transparent the changes made to the contract developed by OpenZepplin so that you can create it yourself, you can contact me to create the contract and I'll transfer ownership to you if you'd prefer
 
