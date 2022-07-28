@@ -111,7 +111,7 @@ event PayeesCleared();
 
 - In the flattener plugin tab, flatten paymentSplitter and save paymentSplitter_flat
 
-![7](/assets/paymentSplitterImages/7.PNG)
+![34](/assets/paymentSplitterImages/34.PNG)
 
 ---
 
@@ -121,7 +121,7 @@ event PayeesCleared();
 // SPDX-License-Identifier: MIT
 ```
 
-![7](/assets/paymentSplitterImages/7.PNG)
+![14](/assets/paymentSplitterImages/14.PNG)
 
 ---
 
@@ -188,7 +188,7 @@ event PayeesCleared();
 
 - convert all money earned from the project to matic tokens and send to the contract address:
 
-![32](/assets/paymentSplitterImages/32.PNG)
+![33](/assets/paymentSplitterImages/33.PNG)
 
 - Click "Contract" > Click "Write Contract" > Click "Connect to Web3" > Click "Metamask" and follow through:
 
@@ -196,7 +196,7 @@ event PayeesCleared();
 
 ---
 
-- Insert the following command into the commands channel of your discord server to generate the payees and sharares arrays for your server:
+- Insert the following command into the commands channel of your discord server to generate the payees and shares arrays for your server:
 
 ```
 (Generate Payees And Shares: **Your Server Name**)
@@ -206,14 +206,12 @@ event PayeesCleared();
 
 ![27](/assets/paymentSplitterImages/27.PNG)
 
-- Paste the Shares Array into the "shares" field of the addpayees function and paste the Address Array into the "Payees" field of the addPayees function and click "Write":
+- Paste the Shares Array into the "shares" field of the addpayees function and paste the Address Array into the "Payees" field of the addPayees function and click "Write" and confirm the transaction in metamask:
 
 ![28](/assets/paymentSplitterImages/28.PNG)
 ![29](/assets/paymentSplitterImages/29.PNG)
 
 ---
-
-- Confirm the transaction in metamask
 
 - Contributors can use the release function with their inserted metamask wallet address and you can transfer ownership of the contract if you wish:
 
