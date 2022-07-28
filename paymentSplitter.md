@@ -35,7 +35,7 @@ contract PaymentSplitter is Context, Ownable {
 
 
 
-- Create "addPayees" function at bottom of file:
+- Create "addPayees" function at bottom of file(Before last curly bracket):
 
 ```
 function _addPayees(address[] memory payees, uint256[] memory shares_) public onlyOwner  {
@@ -68,7 +68,7 @@ event PayeesCleared();
 
 ![4](/assets/paymentSplitterImages/4.PNG)
 
-- Add "clearPayees" function to bottom of file:
+- Add "clearPayees" function to bottom of file(Before last curly bracket):
 
 ```
  function _clearPayees() public onlyOwner {
@@ -123,10 +123,51 @@ event PayeesCleared();
 
 ![21](/assets/paymentSplitterImages/21.PNG)
 
-- CLick "Verify and Publish" on "contract" tab:
+- Click "Verify and Publish" on "contract" tab:
 
 ![22](/assets/paymentSplitterImages/22.PNG)
 
 - Make the fields in circle the same:
 
 ![23](/assets/paymentSplitterImages/23.PNG)
+
+- Copy-paste all the code from the "paymentSplitter_flat.sol" file into the "Enter the Solidity contract code below" field, click "Im not a robot", do the captcha and click "Verify and publish"
+
+![24](/assets/paymentSplitterImages/24.PNG)
+
+- Click the underlined link:
+
+![25](/assets/paymentSplitterImages/25.PNG)
+
+- Click "Contract" > Click "Write Contract" > Click "Connect to Web3" > Click "Metamask" and follow through:
+
+![26](/assets/paymentSplitterImages/26.PNG)
+
+- Insert the following command into the commands channel of your discord server to generate the payees and sharares arrays for your server:
+
+```
+(Generate Payees And Shares: **Your Server Name)
+```
+
+![27](/assets/paymentSplitterImages/27.PNG)
+
+- Paste the Shares Array into the "shares" field of the addpayees function and paste the Address Array into the "Payees" field of the addPayees function and click "Write":
+
+![28](/assets/paymentSplitterImages/28.PNG)
+![29](/assets/paymentSplitterImages/29.PNG)
+
+- Confirm the transaction in metamask
+
+- Contributors can use the release function with their inserted metamask wallet address and you can transfer ownership of the contract if you wish:
+
+![30](/assets/paymentSplitterImages/30.PNG)
+
+- You can see the contract owners address, see a payee account by index, and see how much is releaable to a contributor:
+- 
+![31](/assets/paymentSplitterImages/31.PNG)
+
+- See how much matic an account has released, how many shares an account has, total matic released and total shares posessed
+
+*Congratulations! You've created your paymentSplitter smart contract on polygon.*
+
+
