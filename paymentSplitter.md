@@ -8,6 +8,8 @@
 
 - This contract should be deployed with MATIC/Polygon because Ethereum is too expensive(117 US Dollar)
 
+- I created this guide using polygon testnet for demonstrative purposes, the process is exactly the same for polygon mainnet which you will be using
+
 ---
 
 ## Steps:
@@ -184,6 +186,10 @@ event PayeesCleared();
 
 ---
 
+- convert all money earned from the project to matic tokens and send to the contract address:
+
+![32](/assets/paymentSplitterImages/32.PNG)
+
 - Click "Contract" > Click "Write Contract" > Click "Connect to Web3" > Click "Metamask" and follow through:
 
 ![26](/assets/paymentSplitterImages/26.PNG)
@@ -215,7 +221,7 @@ event PayeesCleared();
 
 ---
 
-- You can see the contract owners address, see a payee account by index, and see how much is releaable to a contributor:
+- On the "Read" tab, you can see the contract owner's address, see a payee account by index, and see how much is releasable to a contributor:
 
 ![31](/assets/paymentSplitterImages/31.PNG)
 
