@@ -1,3 +1,4 @@
+## Steps:
 
 - This guide is to make transparent the changes made to the contract developed by OpenZepplin so that you can create it yourself, you can contact me to create the contract and I'll transfer ownership to you if you'd prefer
 
@@ -8,8 +9,6 @@
 - This contract should be deployed with MATIC/Polygon because Ethereum is too expensive(117 US Dollar)
 
 - I created this guide using polygon testnet for demonstrative purposes, the process is exactly the same for polygon mainnet which you will be using
-
-
 
 ---
 
