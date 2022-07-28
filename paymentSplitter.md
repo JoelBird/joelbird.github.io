@@ -1,4 +1,3 @@
-## Notes:
 
 - This guide is to make transparent the changes made to the contract developed by OpenZepplin
 
