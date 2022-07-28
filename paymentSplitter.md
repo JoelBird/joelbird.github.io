@@ -1,5 +1,5 @@
 
-- This guide is to make transparent the changes made to the contract developed by OpenZepplin
+- This guide is to make transparent the changes made to the contract developed by OpenZepplin so that you can create it yourself, you can contact me to create the contract and I'll transfer ownership to you if you'd prefer
 
 - Changes are required to allow project owner to add and clear payees at any point and to reserve access of certain functions for contract creator(Project Owner)
 
@@ -9,9 +9,9 @@
 
 - I created this guide using polygon testnet for demonstrative purposes, the process is exactly the same for polygon mainnet which you will be using
 
----
 
-https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null
+
+---
 
 ## Steps:
 
