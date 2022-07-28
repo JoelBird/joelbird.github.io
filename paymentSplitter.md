@@ -1,4 +1,4 @@
-#### Notes:
+## Notes:
 
 - This guide is to make transparent the changes made to the contract developed by OpenZepplin
 
@@ -10,11 +10,11 @@
 
 ---
 
-#### Steps:
+## Steps:
 
 - Go to [Remix IDE]([Remix.Ethereum.org](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js))
 - Create new file in contracts folder called "paymentSplitter"
-- Copy and paste OpenZepplin's payment splitter contract code from the following link into your paymentSplitter file:
+- Copy and paste OpenZepplin's payment splitter contract code from the following link into your paymentSplitter file:\
 [OpenZepplin's Payment Splitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol)
 
 ![1](/assets/paymentSplitterImages/1.PNG)
