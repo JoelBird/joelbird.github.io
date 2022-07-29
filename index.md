@@ -102,7 +102,7 @@ Diagram Of Flow:
 
 - You can request for me to create this contract for you at OpenProje@gmail.com or find the guide on how to create this smart contract here:
 
-[paymentSplitter Guide]([https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol](https://joelbird.github.io/paymentSplitter/))
+[Payment Splitter Guide](https://joelbird.github.io/paymentSplitter/)
 
 - Send the funds from the project wallet to the created smart contract's address
 - Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
