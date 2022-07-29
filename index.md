@@ -121,12 +121,12 @@ Diagram Of Flow:
 
 ---
 
-## Setting Owner Ethereum address
+## Setting Owner Wallet address
 
-- The server owner must use the "Set Owner Ethereum address" command, their ethereum earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
+- The server owner must use the "Set Owner Wallet address" command, their wallet earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
 
 ```
-(Set Owner Ethereum Address: **ethereum address**)
+(Set Owner Wallet Address: **wallet address**)
 ```
 
 ---
@@ -137,11 +137,11 @@ Diagram Of Flow:
 
 ---
 
-## Set Ethereum address
+## Set Wallet address
 
-- Members must add their ethereum wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address:
+- Members must add their wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address:
 ```
-(Set Ethereum Address: **ethereum address**)
+(Set Wallet Address: **wallet address**)
 ```
 
 ---
@@ -184,13 +184,13 @@ OpenProj Server:
 ```
 (Set Owner Shares Percent: **percentage**)
 ```
-**Set Owner Ethereum Address (Sent in chat/commands channel) (Must be server owner)**
+**Set Owner Wallet Address (Sent in chat/commands channel) (Must be server owner)**
 ```
-(Set Owner Ethereum Address: **ethereum address**)
+(Set Owner Wallet Address: **wallet address**)
 ```
-**Set my Ethereum Address (Sent in chat/commands channel)**
+**Set Contributor Wallet Address (Sent in chat/commands channel)**
 ```
-(Set Ethereum Address: **ethereum address**)
+(Set Wallet Address: **wallet address**)
 ```
 **Check shares (Sent in chat/commands channel)**
 ```
