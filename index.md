@@ -14,7 +14,7 @@ OpenProj helps projects on discord open their work to the community, allowing me
 Please ensure all earnings from your project go to a project wallet address that is seperate from all other income streams or holdings. The project earnings should be isolated in it's own address and not merged with any other value.
 
 If your project is an NFT project, we highly advise following our guide on setting up NFT royalties for your contract, this will ensure sustained project income and encourage long term project development and growth from your contributors:
-[Invite Url](https://joelbird.github.io/nftRoyalties/)
+[NFT Royalties Guide](https://joelbird.github.io/nftRoyalties/)
 
 - Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
@@ -85,7 +85,7 @@ They will then archive the thread, awaiting evaluation.
 
 ![9](/assets/images/9.PNG)
 
-Diagram Of Flow:
+**Diagram Of Flow:**
 
 ![split](/assets/images/split.PNG)
 
