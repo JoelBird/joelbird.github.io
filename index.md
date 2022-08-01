@@ -17,7 +17,7 @@ If your project is an NFT project, we highly advise following our guide on setti
 [NFT Royalties Guide](https://joelbird.github.io/nftRoyalties/)
 
 - Invite our OpenProj bot to your server:
-[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=17179962368)
+[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=395137084432)
 - Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
 - Create the following channels in the OpenProj category:\
 info\
