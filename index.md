@@ -164,7 +164,6 @@ OpenProj Server:
 ```
 (Create Tasks: **tasks**)
 ```
-
 **Update channel tasks (Sent in task channel) (Must have distributor role)**
 ```
 (Update Tasks: **tasks**)
