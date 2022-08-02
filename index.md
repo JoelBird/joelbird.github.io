@@ -18,13 +18,9 @@ If your project is an NFT project, we highly advise following our guide on setti
 
 - Invite our OpenProj bot to your server:
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=395137084432)
-- Create a category called "OpenProj" within your discord server - Capitalised "O" and capitalised "P"
-- Create the following channels in the OpenProj category:\
-info\
-chat\
-commands
+- Our bot will create the OpenProj category, the required channels and the OpenProjManager role
 
-Now create the task-channels. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Task-channels can be of the following categories:\
+Now create the task-channels you will be working with. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Task-channels can be of the following categories:\
 marketing-tasks\
 coding-tasks\
 other-tasks
@@ -36,25 +32,24 @@ other-tasks
 ## Creating Tasks:
 
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
-- You must create a distributor role within your server, call it: (name of server)Distributor - no spaces, server name spelt as spelt on server, distributor with capitalised "D"\
-![1](/assets/images/1.PNG)
-- For a member to create and update tasks they must have the distributor role of that server.
-- Create tasks with the following format inserted as a message in your discord server:
+- For a member to create and update tasks they must have the OpenProjManager role of that server.
+- Create tasks with the following format inserted as a message in a task-channel:
 
 ```
-Create Tasks(**tasks**)
+Update Tasks(**tasks**)
 ```
-![2](/assets/images/2.PNG)
+![1](/assets/images/1.PNG)
 
 *These commands must be used so that the "tasks" message is created by our bot, this is necessary as the bot will be updating the tasks message frequently and must be the author of the message to do so.*
 
 **Task Information:**
 
 **Task Title:** Title of the task\
-**Task Level:** A number from 1 - 100 that describes the difficulty of the task and is also the amount shares a contributor will receive on completion of the task\
+**Shares:** A number from 1 - 100 that describes the difficulty of the task and is also the amount shares a contributor will receive on completion of the task\
 **Task Description:** Describe what the task entails\
 **Thread Count:** Specify how many threads can be created to contribute towards/complete a task\
 **Thread Links:** The bot will create links to the threads that members create
+**Task Creator:** The member that created this task
 
 ---
 
@@ -69,7 +64,7 @@ Create Tasks(**tasks**)
 (Split: @member **amount**)
 ```
 
-![8](/assets/images/8.PNG)
+![2](/assets/images/2.PNG)
 
 They will then archive the thread, awaiting evaluation. 
 
@@ -77,17 +72,17 @@ They will then archive the thread, awaiting evaluation.
 
 ## Evaluating a task contribution/completion:
 
-- At the end of the month time period, members with the distributor role will evaluate all task contributions/completions of every task channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
+- At the end of the month time period, members with the OpenProjManager role will evaluate all task contributions/completions of every task-channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
 
 ```
 (Distribute: @member **amount**)
 ```
 
-![9](/assets/images/9.PNG)
+![3](/assets/images/3.PNG)
 
 **Diagram Of Flow:**
 
-![split](/assets/images/split.PNG)
+![6](/assets/images/6.PNG)
 
 ---
 
@@ -130,9 +125,9 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
-## Openproj will always have 5% of shares
+## Openproj will always have 6% of shares
 
-- Openproj will always possess 5% of shares, according to the same logic as the "Set Owner Shares percent" command
+- Openproj will always possess 6% of shares, according to the same logic as the "Set Owner Shares percent" command
 
 ---
 
@@ -160,11 +155,11 @@ OpenProj Server:
 - Our OpenProj bot will message you with command errors or information requested from a command
 
 
-**Create channel tasks (Sent in task channel) (Must have distributor role)**
+**Create channel tasks (Sent in task channel) (Must have OpenprojManager role)**
 ```
 (Create Tasks: **tasks**)
 ```
-**Update channel tasks (Sent in task channel) (Must have distributor role)**
+**Update channel tasks (Sent in task channel) (Must have OpenprojManager role)**
 ```
 (Update Tasks: **tasks**)
 ```
@@ -174,7 +169,7 @@ OpenProj Server:
 ```
 (Split: @member **percentage**)
 ```
-**Distribute shares to task completers/contributors (Sent in thread) (Must have distributor role)**
+**Distribute shares to task completers/contributors (Sent in thread) (Must have OpenprojManager role)**
 ```
 (Distribute: @member **amount**)
 ```
