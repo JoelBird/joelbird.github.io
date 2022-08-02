@@ -214,7 +214,7 @@ event PayeesCleared();
 
 ---
 
-- Contributors can use the release function with their inserted metamask wallet address and you can transfer ownership of the contract if you wish:
+- Contributors can use the *release* function with their inserted metamask wallet address to receive their MATIC, you should use the *clear payees* command before adding new payees and you can transfer ownership of the contract if you wish:
 
 ![30](/assets/paymentSplitterImages/30.PNG)
 
