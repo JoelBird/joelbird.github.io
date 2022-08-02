@@ -1,7 +1,7 @@
 
 ## Notes:
 
-- This guide is to make transparent the changes made to the contract developed by OpenZepplin so that you can create it yourself, you can contact me to create the contract and I'll transfer ownership to you if you'd prefer
+- This guide is to make transparent the changes made to the contract developed by OpenZepplin so that you can create it yourself, you can contact me at OpenProje@gmail.com to create the contract for you and I'll transfer ownership to you if you'd prefer
 
 - Changes are required to allow project owner to add and clear payees at any point and to reserve access of certain functions for contract creator(Project Owner)
 
