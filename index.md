@@ -17,7 +17,7 @@ If your project is an NFT project, we highly advise following our guide on setti
 [NFT Royalties Guide](https://joelbird.github.io/nftRoyalties/)
 
 - Invite our OpenProj bot to your server:
-[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=395137084432)
+[Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=395405552656)
 - Our bot will create the OpenProj category, the required channels and the OpenProjManager role
 
 Now create the task-channels you will be working with. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Task-channels can be of the following categories:\
