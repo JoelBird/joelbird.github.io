@@ -20,23 +20,16 @@ If your project is an NFT project, we highly advise following our guide on setti
 [Invite Url](https://discordapp.com/api/oauth2/authorize?client_id=961725997789630524&scope=bot&permissions=395405552656)
 - Our bot will create the OpenProj category, the required channels and the OpenProjManager role
 
-Now create the task-channels you will be working with. Task-channels are different areas of development your project wishes to open to the public, inviting their support. Task-channels can be of the following categories:\
-marketing-tasks\
-coding-tasks\
-other-tasks
-
-*When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
-
 ---
 
 ## Creating Tasks:
 
 - The first message in a tasks-channel will define all the tasks that you are inviting members to complete.
-- For a member to create and update tasks they must have the OpenProjManager role of that server.
-- Create tasks with the following format inserted as a message in a task-channel:
+- For a member to add and remove tasks they must have the OpenProjManager role of that server.
+- Create tasks with the **add_task** slash command in your discord server:
 
 ```
-Update Tasks(**tasks**)
+/add_task
 ```
 ![1](/assets/images/1.PNG)
 
@@ -57,11 +50,11 @@ Update Tasks(**tasks**)
 
 - Members can create a thread to attempt completion/contribution of a task
 - The creator of this thread is held responsible for the task
-- The thread creator may require other members to assist in contribution/completion of the task. The thread creator uses the Split command to allocate a percentage of received shares to contributors in that thread.
-- When the thread creator has judged that the task is sufficiently completed/contributed towards, they will create their final messages in the thread, allocating the shares to all assisting members for their contribution:
+- The thread creator may require other members to assist in contribution/completion of the task. The thread creator uses the **split** command to allocate a percentage of received shares to contributors in that thread.
+- When the thread creator has judged that the task is sufficiently completed/contributed towards, they will use the **split** command in their thread, allocating shares to all assisting members for their contribution:
 
 ```
-(Split: @member **amount**)
+/split
 ```
 
 ![2](/assets/images/2.PNG)
@@ -70,12 +63,32 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
+## Set Owner Shares Percent
+
+- A member with the OpenprojManager role must set the percentage of shares the project owner will possess using the **set_owner_shares_percent** command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command:
+
+```
+/set_owner_shares_percent
+```
+
+---
+
+## Setting Owner Wallet address
+
+- A member with the OpenprojManager role must use the **set_owner_wallet_address** command, their wallet earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
+
+```
+/set_owner_wallet_address
+```
+
+---
+
 ## Evaluating a task contribution/completion:
 
 - At the end of the month time period, members with the OpenProjManager role will evaluate all task contributions/completions of every task-channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
 
 ```
-(Distribute: @member **amount**)
+/distribute
 ```
 
 ![3](/assets/images/3.PNG)
@@ -88,9 +101,13 @@ They will then archive the thread, awaiting evaluation.
 
 ## Generate Payees And Shares
 
-- After all threads have been evaluated and shares distributed, the owner should use the "Generate Payees And Shares" command. The bot will send 2 arrays, the first array contains the share amounts and the second array contains the ethereum addresses' for those amounts.
+- After all threads have been evaluated and shares distributed, the owner should use the **generate_payees_and_shares** command. The bot will send 2 arrays, the first array contains the share amounts and the second array contains the ethereum addresses for those amounts:
 
-- These lists are inserted into the "_addPayees" function of the payment splitter smart contract:
+```
+/generate_payees_and_shares
+```
+
+- These lists are inserted into the **_addPayees** function of the payment splitter smart contract:
 
 ![4](/assets/images/4.PNG)
 
@@ -99,35 +116,15 @@ They will then archive the thread, awaiting evaluation.
 [Payment Splitter Guide](https://joelbird.github.io/paymentSplitter/)
 
 - Send the funds from the project wallet to the created smart contract's address
-- Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the "release" function:
+- Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the **release** function:
 
 ![5](/assets/images/5.PNG)
 
 ---
 
-## Set Owner Shares Percent
+## Openproj will always have 5% of shares
 
-- The server owner should set the percentage of shares the project owner will possess using the "Set Owner Shares percent" command, if contributors collectively accumulate 100 shares and the owner set their shares percent to 50%, the owner will have 100 shares as well. The owner will always have the percent of shares set with this command:
-
-```
-(Set Owner Shares Percent: **percentage**)
-```
-
----
-
-## Setting Owner Wallet address
-
-- The server owner must use the "Set Owner Wallet address" command, their wallet earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
-
-```
-(Set Owner Wallet Address: **wallet address**)
-```
-
----
-
-## Openproj will always have 6% of shares
-
-- Openproj will always possess 6% of shares, according to the same logic as the "Set Owner Shares percent" command
+- Openproj will always possess 5% of shares, according to the same logic as the **set_owner_shares_percent** command
 
 ---
 
@@ -135,61 +132,68 @@ They will then archive the thread, awaiting evaluation.
 
 - Members must add their wallet address with the below command, members that fail to add their address will forfeit their earnings to everyone that did add their address:
 ```
-(Set Wallet Address: **wallet address**)
+/set_wallet_address
 ```
+
+---
+
+You can delete and create the following channels in the OpenProj category anytime, our bot will populate the necessary info on creation:\
+marketing-tasks\
+coding-tasks\
+other-tasks\
+info\
+chat\
+commands\
+request-task\
+
+*When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
 ---
 
 ## Server Duplication
 
-- For every discord server that has integrated with OpenProj, it's task channels and task channel's contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project
+- For every discord server that has integrated with OpenProj, it's task channels and task channel's contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project.
 
 OpenProj Server:
 [Invite Url](https://discord.gg/sUGsVayRaD)
 
 ---
 
-## OpenProj-Discord Commands
+## OpenProjBot Slash Commands
 
-- These commands are sent as a message in a Discord server that has invited our OpenProj bot
-- Our OpenProj bot will message you with command errors or information requested from a command
-
-
-**Create channel tasks (Sent in task channel) (Must have OpenprojManager role)**
+**Add task to channel (Must have OpenProjManager role)**
 ```
-(Create Tasks: **tasks**)
+/add_task
 ```
-**Update channel tasks (Sent in task channel) (Must have OpenprojManager role)**
+**Remove task from channel (Must have OpenProjManager role)**
 ```
-(Update Tasks: **tasks**)
+/remove_task
 ```
-*This command will delete the tasks already there and replace them with the new task information*
-
-**Set Split for assisting members (Sent in thread)**
+**Set split for assisting members (Sent in thread)**
 ```
-(Split: @member **percentage**)
+/split
 ```
-**Distribute shares to task completers/contributors (Sent in thread) (Must have OpenprojManager role)**
+**Distribute shares to task completers/contributors (Sent in thread) (Must have OpenProjManager role)**
 ```
-(Distribute: @member **amount**)
+/distribute
 ```
-**Set Owner Shares Percent (Sent in chat/commands channel) (Must be server owner)**
+**Set Owner Shares Percent (Must have OpenProjManager role)**
 ```
-(Set Owner Shares Percent: **percentage**)
+/set_owner_shares_percent
 ```
-**Set Owner Wallet Address (Sent in chat/commands channel) (Must be server owner)**
+**Set Owner Wallet Address (Must have OpenProjManager role)**
 ```
-(Set Owner Wallet Address: **wallet address**)
+/set_owner_wallet_address
 ```
-**Set Contributor Wallet Address (Sent in chat/commands channel)**
+**Set Contributor Wallet Address**
 ```
-(Set Wallet Address: **wallet address**)
+/set_wallet_address
 ```
-**Check shares (Sent in chat/commands channel)**
+**Check Shares**
 ```
-(Shares: **server name**)
+/shares
 ```
-**Generate Payees And Shares (Sent in chat/commands channel)**
+**Generate Payees And Shares**
 ```
-(Generate Payees And Shares: **server name**)
+/generate_payees_and_shares
 ```
