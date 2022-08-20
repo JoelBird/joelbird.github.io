@@ -91,7 +91,7 @@ They will then archive the thread, awaiting evaluation.
 /distribute
 ```
 
-![1](/assets/images/1.PNG)
+![4](/assets/images/4.PNG)
 
 **Diagram Of Flow:**
 
