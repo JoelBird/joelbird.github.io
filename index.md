@@ -95,7 +95,7 @@ They will then archive the thread, awaiting evaluation.
 
 **Diagram Of Flow:**
 
-![1]/assets/images/1PNG)
+![1]/assets/images/1.PNG)
 
 ---
 
