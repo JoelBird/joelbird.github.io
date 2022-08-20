@@ -31,7 +31,7 @@ If your project is an NFT project, we highly advise following our guide on setti
 ```
 /add_task
 ```
-![1](/assets/images/1.PNG)
+![2](/assets/images/2.PNG)
 
 *These commands must be used so that the "tasks" message is created by our bot, this is necessary as the bot will be updating the tasks message frequently and must be the author of the message to do so.*
 
@@ -57,7 +57,7 @@ If your project is an NFT project, we highly advise following our guide on setti
 /split
 ```
 
-![2](/assets/images/2.PNG)
+![3](/assets/images/3.PNG)
 
 They will then archive the thread, awaiting evaluation. 
 
@@ -75,7 +75,7 @@ They will then archive the thread, awaiting evaluation.
 
 ## Setting Owner Wallet address
 
-- A member with the OpenprojManager role must use the **set_owner_wallet_address** command, their wallet earnings according to the amount set with the "Set Owner Shares Percent" command will be released to this account:
+- A member with the OpenprojManager role must use the **set_owner_wallet_address** command, their wallet earnings according to the amount set with the set_owner_shares_percent command will be released to this account:
 
 ```
 /set_owner_wallet_address
@@ -85,17 +85,17 @@ They will then archive the thread, awaiting evaluation.
 
 ## Evaluating a task contribution/completion:
 
-- At the end of the month time period, members with the OpenProjManager role will evaluate all task contributions/completions of every task-channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' Split allocations:
+- At the end of the month time period, members with the OpenProjManager role will evaluate all task contributions/completions of every task-channel and distribute the share amounts, they will distribute the shares as a percentage of the threads contribution towards completing the task and according to the thread creators' split allocations:
 
 ```
 /distribute
 ```
 
-![3](/assets/images/3.PNG)
+![4](/assets/images/4.PNG)
 
 **Diagram Of Flow:**
 
-![6](/assets/images/6.PNG)
+![1]/assets/images/1PNG)
 
 ---
 
@@ -109,7 +109,7 @@ They will then archive the thread, awaiting evaluation.
 
 - These lists are inserted into the **_addPayees** function of the payment splitter smart contract:
 
-![4](/assets/images/4.PNG)
+![5](/assets/images/5.PNG)
 
 - You can request for me to create this contract for you at OpenProje@gmail.com or find the guide on how to create this smart contract here:
 
@@ -118,7 +118,7 @@ They will then archive the thread, awaiting evaluation.
 - Send the funds from the project wallet to the created smart contract's address
 - Contributors can now release their allocated earnings from the smart contract by inserting their wallet address into the **release** function:
 
-![5](/assets/images/5.PNG)
+![6](/assets/images/6.PNG)
 
 ---
 
@@ -137,14 +137,15 @@ They will then archive the thread, awaiting evaluation.
 
 ---
 
-You can delete and create the following channels in the OpenProj category anytime, our bot will populate the necessary info on creation:\
+**You can delete and create the following channels in the OpenProj category anytime, our bot will populate the necessary info on creation:**\
+
 marketing-tasks\
 coding-tasks\
 other-tasks\
 info\
 chat\
 commands\
-request-task\
+request-task
 
 *When creating these channels, please ensure spelling is the same as demonstrated above, this is necessary for our bot*
 
@@ -155,7 +156,7 @@ request-task\
 - For every discord server that has integrated with OpenProj, it's task channels and task channel's contents will be duplicated and kept up to date by our bot on the OpenProj server, making it accesible to members looking to contribute to a project.
 
 OpenProj Server:
-[Invite Url](https://discord.gg/sUGsVayRaD)
+[Invite Url](https://discord.gg/f483YjEA6K)
 
 ---
 
