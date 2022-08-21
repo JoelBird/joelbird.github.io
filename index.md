@@ -134,6 +134,9 @@ They will then archive the thread, awaiting evaluation.
 ```
 /set_wallet_address
 ```
+
+---
+
 ## Enable / Disable Chat Shares
 
 - Like mee6 leveling up system, contributors can be rewarded a specified amount of shares every minute of communication on the channels you select
@@ -144,6 +147,7 @@ They will then archive the thread, awaiting evaluation.
 ```
 /disable_chat_shares
 ```
+
 ---
 
 **You can delete and create the following channels in the OpenProj category anytime, our bot will populate the necessary info on creation:**\
