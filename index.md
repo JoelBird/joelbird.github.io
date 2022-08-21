@@ -134,7 +134,16 @@ They will then archive the thread, awaiting evaluation.
 ```
 /set_wallet_address
 ```
+## Enable / Disable Chat Shares
 
+- Like mee6 leveling up system, contributors can be rewarded a specified amount of shares every minute of communication on the channels you select
+
+```
+/enable_chat_shares
+```
+```
+/disable_chat_shares
+```
 ---
 
 **You can delete and create the following channels in the OpenProj category anytime, our bot will populate the necessary info on creation:**\
@@ -169,6 +178,14 @@ OpenProj Server:
 **Remove task from channel (Must have OpenProjManager role)**
 ```
 /remove_task
+```
+**Enable Chat Shares (Must have OpenProjManager role)**
+```
+/enable_chat_shares
+```
+**Disable Chat Shares (Must have OpenProjManager role)**
+```
+/disable_chat_shares
 ```
 **Set split for assisting members (Sent in thread)**
 ```
