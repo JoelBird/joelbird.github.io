@@ -197,19 +197,16 @@ event PayeesCleared();
 
 ---
 
-- Insert the following command into the commands channel of your discord server to generate the payees and shares arrays for your server:
+- Use the following slash command in your discord server to generate the payees and shares arrays for your server:
 
 ```
-(Generate Payees And Shares: **Your Server Name**)
+/generate_payees_and_shares
 ```
 
----
-
-![27](/assets/paymentSplitterImages/27.PNG)
+![one](/assets/paymentSplitterImages/one.PNG)
 
 - Paste the Shares Array into the "shares" field of the addpayees function and paste the Address Array into the "Payees" field of the addPayees function and click "Write" and confirm the transaction in metamask:
 
-![28](/assets/paymentSplitterImages/28.PNG)
 ![29](/assets/paymentSplitterImages/29.PNG)
 
 ---
