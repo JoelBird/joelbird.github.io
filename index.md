@@ -4,7 +4,9 @@ title: "Home"
 ---
 ## What is OpenProj?
 
-OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with shares of that project.
+OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with shares of that project:
+
+![OpenProj NFT Server Guide](/assets/images/OpenProj NFT Server Guide.mp4)
 
 ---
 
