@@ -6,7 +6,7 @@ title: "Home"
 
 OpenProj helps projects on discord open their work to the community, allowing members to participate in the projects development and get rewarded with shares of that project:
 
-<p align = "center">
+<p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iiJ761l48Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 ---
