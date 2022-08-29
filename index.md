@@ -194,6 +194,10 @@ OpenProj Server:
 ```
 /disable_chat_shares
 ```
+**Enable Whitelist Task (Must have OpenProjManager role)**
+```
+/enable_whitelist_task
+```
 **Set split for assisting members (Sent in thread)**
 ```
 /split
