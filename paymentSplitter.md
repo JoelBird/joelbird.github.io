@@ -93,9 +93,12 @@ event PayeesCleared();
         for (uint256 i = 0; i < _payees.length; i++) {
             address thing = _payees[i];
             delete _shares[thing];
+            delete _released[thing];
         }
+       
         delete _payees;
         delete _totalShares;
+        delete _totalReleased;
         emit PayeesCleared();
     }
 ```
